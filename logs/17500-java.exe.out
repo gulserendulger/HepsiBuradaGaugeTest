@@ -1,0 +1,107 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+{"logLevel":"debug","message":"gauge-java took 1978milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 1978"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 49926"}
+{"logLevel":"info","message":"Listening on port:49926"}
+[pool-1-thread-1] INFO org.reflections.Reflections - Reflections took 2635 ms to scan 90 urls, producing 10312 keys and 55876 values
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'steps.ProductsSteps.controlProductIncrease' and 'steps.ProductsSteps.controlProductIncrease'"}
+{"logLevel":"debug","message":"Found Ürün sayısını 1 arttır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.LoginSteps.controlEmailPage' and 'steps.LoginSteps.controlEmailPage'"}
+{"logLevel":"debug","message":"Found Login sayfası kontrol in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.ProductsSteps.controlAddToCart' and 'steps.ProductsSteps.controlAddToCart'"}
+{"logLevel":"debug","message":"Found Random seçilen ürünü sepete ekleme in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.MainSteps.searchBoxClick' and 'steps.MainSteps.searchBoxClick'"}
+{"logLevel":"debug","message":"Found Aranacak kelimenin girilmesi in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.ProductsSteps.controlSelectProducts' and 'steps.ProductsSteps.controlSelectProducts'"}
+{"logLevel":"debug","message":"Found Random ürün seçme in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.GuestSteps.loginClick' and 'steps.GuestSteps.loginClick'"}
+{"logLevel":"debug","message":"Found Login butonuna tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.MainSteps.controlSelectFilter' and 'steps.MainSteps.controlSelectFilter'"}
+{"logLevel":"debug","message":"Found Filtre seçme in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.LoginSteps.controlGooglePage' and 'steps.LoginSteps.controlGooglePage'"}
+{"logLevel":"debug","message":"Found Google password giriş kontrol in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.GuestSteps.controlHepsiBurada' and 'steps.GuestSteps.controlHepsiBurada'"}
+{"logLevel":"debug","message":"Found HepsiBurada sayfasının geldiğini kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.MainSteps.controlMainPage' and 'steps.MainSteps.controlMainPage'"}
+{"logLevel":"debug","message":"Found Main sayfasının kontrol edilmesi in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.GuestSteps.waitForsecond' and 'steps.GuestSteps.waitForsecond'"}
+{"logLevel":"debug","message":"Found {} saniye bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.LoginSteps.loginGooglePassword' and 'steps.LoginSteps.loginGooglePassword'"}
+{"logLevel":"debug","message":"Found Google password giriş in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.LoginSteps.loginGoogle' and 'steps.LoginSteps.loginGoogle'"}
+{"logLevel":"debug","message":"Found Login Google in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.ProductsSteps.controlShoppingDone' and 'steps.ProductsSteps.controlShoppingDone'"}
+{"logLevel":"debug","message":"Found Alışverişi tamamla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.GuestSteps.findLogin' and 'steps.GuestSteps.findLogin'"}
+{"logLevel":"debug","message":"Found Login butonunu bul in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.ProductsSteps.controlShoppingCart' and 'steps.ProductsSteps.controlShoppingCart'"}
+{"logLevel":"debug","message":"Found Sepete git in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.LoginSteps.loginGoogleEmail' and 'steps.LoginSteps.loginGoogleEmail'"}
+{"logLevel":"debug","message":"Found Google email giriş in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.LoginSteps.emailGoogle' and 'steps.LoginSteps.emailGoogle'"}
+{"logLevel":"debug","message":"Found Google email giriş kontrol in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tGoogle password giriş kontrol : public void controlGooglePage()"}
+{"logLevel":"debug","message":"\tGoogle email giriş : public void loginGoogleEmail()"}
+{"logLevel":"debug","message":"\tAranacak kelimenin girilmesi : public void searchBoxClick()"}
+{"logLevel":"debug","message":"\tRandom seçilen ürünü sepete ekleme : public void controlAddToCart()"}
+{"logLevel":"debug","message":"\tGoogle password giriş : public void loginGooglePassword()"}
+{"logLevel":"debug","message":"\tÜrün sayısını 1 arttır : public void controlProductIncrease() throws InterruptedException"}
+{"logLevel":"debug","message":"\tLogin sayfası kontrol : public void controlEmailPage()"}
+{"logLevel":"debug","message":"\tRandom ürün seçme : public void controlSelectProducts()"}
+{"logLevel":"debug","message":"\tSepete git : public void controlShoppingCart() throws InterruptedException"}
+{"logLevel":"debug","message":"\tLogin butonunu bul : public void findLogin()"}
+{"logLevel":"debug","message":"\tLogin butonuna tıkla : public void loginClick()"}
+{"logLevel":"debug","message":"\tFiltre seçme : public void controlSelectFilter() throws InterruptedException"}
+{"logLevel":"debug","message":"\tMain sayfasının kontrol edilmesi : public void controlMainPage()"}
+{"logLevel":"debug","message":"\tAlışverişi tamamla : public void controlShoppingDone()"}
+{"logLevel":"debug","message":"\t{} saniye bekle : public void waitForsecond(ınt time) throws InterruptedException"}
+{"logLevel":"debug","message":"\tLogin Google : public void loginGoogle()"}
+{"logLevel":"debug","message":"\tGoogle email giriş kontrol : public void emailGoogle()"}
+{"logLevel":"debug","message":"\tHepsiBurada sayfasının geldiğini kontrol et : public void controlHepsiBurada()"}
+[pool-2-thread-1] INFO org.reflections.Reflections - Reflections took 992 ms to scan 90 urls, producing 10228 keys and 46847 values
+Starting ChromeDriver 106.0.5249.61 (511755355844955cd3e264779baf0dd38212a4d0-refs/branch-heads/5249@{#569}) on port 17435
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Eki 05, 2022 2:06:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class steps.GuestSteps.waitForsecond"}
+{"logLevel":"debug","message":"Executing 'HepsiBurada sayfasının geldiğini kontrol et' using 'class steps.GuestSteps.controlHepsiBurada"}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class steps.GuestSteps.waitForsecond"}
+{"logLevel":"debug","message":"Executing 'Login butonunu bul' using 'class steps.GuestSteps.findLogin"}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class steps.GuestSteps.waitForsecond"}
+{"logLevel":"debug","message":"Executing 'Login butonuna tıkla' using 'class steps.GuestSteps.loginClick"}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class steps.GuestSteps.waitForsecond"}
+{"logLevel":"debug","message":"Executing 'Login sayfası kontrol' using 'class steps.LoginSteps.controlEmailPage"}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class steps.GuestSteps.waitForsecond"}
+{"logLevel":"debug","message":"Executing 'Login Google' using 'class steps.LoginSteps.loginGoogle"}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class steps.GuestSteps.waitForsecond"}
+{"logLevel":"debug","message":"Executing 'Google email giriş kontrol' using 'class steps.LoginSteps.emailGoogle"}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class steps.GuestSteps.waitForsecond"}
+{"logLevel":"debug","message":"Executing 'Google email giriş' using 'class steps.LoginSteps.loginGoogleEmail"}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class steps.GuestSteps.waitForsecond"}
+{"logLevel":"debug","message":"Executing 'Google password giriş kontrol' using 'class steps.LoginSteps.controlGooglePage"}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class steps.GuestSteps.waitForsecond"}
+{"logLevel":"debug","message":"Executing 'Google password giriş' using 'class steps.LoginSteps.loginGooglePassword"}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class steps.GuestSteps.waitForsecond"}
+{"logLevel":"debug","message":"Executing 'Main sayfasının kontrol edilmesi' using 'class steps.MainSteps.controlMainPage"}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class steps.GuestSteps.waitForsecond"}
+{"logLevel":"debug","message":"Executing 'Aranacak kelimenin girilmesi' using 'class steps.MainSteps.searchBoxClick"}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class steps.GuestSteps.waitForsecond"}
+{"logLevel":"debug","message":"Executing 'Filtre seçme' using 'class steps.MainSteps.controlSelectFilter"}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class steps.GuestSteps.waitForsecond"}
+{"logLevel":"debug","message":"Executing 'Random ürün seçme' using 'class steps.ProductsSteps.controlSelectProducts"}
+24
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class steps.GuestSteps.waitForsecond"}
+{"logLevel":"debug","message":"Executing 'Random seçilen ürünü sepete ekleme' using 'class steps.ProductsSteps.controlAddToCart"}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class steps.GuestSteps.waitForsecond"}
+{"logLevel":"debug","message":"Executing 'Sepete git' using 'class steps.ProductsSteps.controlShoppingCart"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}
